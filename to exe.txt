@@ -1,0 +1,10 @@
+pyi-makespec           <.py file>   # create a .spec file
+            --onefile  			    # all in 1 file
+            -F                      # all in 1 file
+            --noconsole  			# remove terminal window
+            -w                      # remove terminal window
+pyinstaller <.spec file>  	        # create the .exe out of .spec
+
+
+# inside the .spec file
+datas=[('src/README.txt','.'),('mygame/sfx/*.mp3', 'sfx')]   # path relative to the .spec file
