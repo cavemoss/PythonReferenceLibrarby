@@ -1,1 +1,3 @@
-pip install <module name>
+pip install <module_name>
+  pip install <module_name>==<version>
+  pip uninstall <module_name>
