@@ -22,19 +22,19 @@ except Exception as error:
 
 # create a file
 text = ''
-with open('path\\name','w') as file:
+with open('path\\name', 'w') as file:
     file.write(text)
 file.close()
 
 
 # append a file
-with open('path\\name','a') as file:
+with open('path\\name', 'a') as file:
     file.write(text)
 file.close()
 
 
 # copy file
-import shutil   
+import shutil
 
 shutil.copyfile('src', 'dst')
 shutil.copy('src', 'dst')

@@ -49,7 +49,7 @@ entry_box.pack()
 submit_button = Button(root, text='submit', command=submit)
 submit_button.pack()
 
-add_button = Button(root, text='add', command=add)
+add_button = Button(root, text='(more)', command=add)
 add_button.pack()
 
 delete_button = Button(root, text='delete', command=delete)

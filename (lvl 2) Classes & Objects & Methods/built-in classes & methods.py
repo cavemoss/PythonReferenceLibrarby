@@ -4,6 +4,7 @@ c = 4.2
 d = True
 
 print(
+
     len(a), a.__len__(),
 
     b + 8, b.__add__(8),
@@ -11,4 +12,5 @@ print(
 
     str(c), c.__str__(),
     int(c), c.__int__()
+
 )

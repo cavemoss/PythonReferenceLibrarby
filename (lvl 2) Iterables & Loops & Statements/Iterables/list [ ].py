@@ -14,7 +14,7 @@ for x in the_list:
 print(the_list[2])
 print(the_list[0]+' '+the_list[3])
 
-the_list.append('item5')        # append (add an item at the end)
+the_list.append('item5')        # append ((more) an item at the end)
 the_list.remove('item3')        # remove (remove an item form the list)
 the_list.pop()                  # pop (remove the last item)
 the_list.insert(1, 'item1.5')   # insert (insert a new item at an index)

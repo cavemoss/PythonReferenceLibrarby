@@ -1,9 +1,9 @@
-pyi-makespec           <.py file>   # create a .spec file
+pyi-makespec           <file.py>   # create a .spec file
             --onefile  			    # all in 1 file
-            -F                      # all in 1 file
+            -F                      # shortcut ^
             --noconsole  			# remove terminal window
-            -w                      # remove terminal window
-pyinstaller <.spec file>  	        # create the .exe out of .spec
+            -w                      # shortcut ^
+pyinstaller <file.spec>  	        # create the .exe out of .spec
 
 
 # inside the .spec file

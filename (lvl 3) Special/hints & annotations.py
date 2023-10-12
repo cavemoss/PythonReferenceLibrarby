@@ -10,6 +10,6 @@ def add_numbers2(*args: int) -> int:
 def print_numbers(a: int, b: int, c: int) -> None:
     print(a + b + c)
 
-# in terminal
+
 # pip install mypy (install mypy)
 # mypy <path/file.py> (run Static Code Analysis)

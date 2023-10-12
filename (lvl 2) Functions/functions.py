@@ -1,8 +1,8 @@
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> def function
 
-def a_function():
+def function():
     pass
-a_function()
+function()
 
 
 def hello(who):
