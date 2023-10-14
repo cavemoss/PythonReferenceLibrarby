@@ -1,4 +1,4 @@
-pyi-makespec           <file.py>   # create a .spec file
+pyi-makespec           <file.py>    # create a .spec file
             --onefile  			    # all in 1 file
             -F                      # shortcut ^
             --noconsole  			# remove terminal window

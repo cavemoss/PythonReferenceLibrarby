@@ -3,7 +3,7 @@
 name = 'what this'
 
 name_first = name[0:4]
-name_last = name[5:9]
+name_last = name[5:]
 funky_name = name[0:9:2]
 funky_name2 = name[::2]
 name_reversed = name[::-1]
