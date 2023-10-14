@@ -1,8 +1,15 @@
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> def function
 
-def function():
+def function(argument, key_word=None):
+    """
+    Epic Style comments
+    exclusive for functions
+    :param argument:
+    :param key_word:
+    :return:
+    """
     pass
-function()
+function('', key_word='')
 
 
 def hello(who):

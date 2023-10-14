@@ -5,9 +5,15 @@ print('write strings like this\nif it requires more lines', end='\n\n')
 print('backwards slash is the escape symbol, so you can print <don\'t>', end='\n\n')
 print("you can also use double quotes for that purpose <don't>", end='\n\n')
 
+print('this is \t how you \t do tabs')
+
 print('''write strings like this 
 if it requires more lines''', end='\n\n')
 
+"""
+write comments
+epic style
+"""
 
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> assign and print()
 
