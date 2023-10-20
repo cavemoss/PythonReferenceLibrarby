@@ -1,4 +1,4 @@
-# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> print('text')
+# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> print('string')
 
 print('write strings like this\nif it requires more lines', end='\n\n')
 
@@ -12,8 +12,10 @@ if it requires more lines''', end='\n\n')
 
 """
 write comments
-epic style
+epic style;
+used for functions
 """
+
 
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> assign and print()
 
@@ -48,17 +50,6 @@ print(float(b))
 print(c + float(b), end='\n\n')
 
 
-# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> min max value
-
-number = 101
-max_value = 100
-min(number, max_value)
-
-number = 999
-min_value = 1000
-max(number, min_value)
-
-
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> input()
 
 desire = input('what do you want? ')
@@ -72,5 +63,5 @@ print('i divided them for u <3\n' + str(number/other_number), end='\n\n')
 
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> del
 
-del a, b, c, d, number, max_value, min_value
-print(a, b, c, d, number, max_value, min_value)
+del a, b, c, d
+print(a, b, c, d)

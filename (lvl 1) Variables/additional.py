@@ -17,3 +17,14 @@ for i in foods:
 foods2 = list()
 while food := input('what would you like to eat? ') != 'quit':
     foods2.append(food)
+
+
+# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> min max value
+
+number = 101
+max_value = 100
+min(number, max_value)
+
+number = 999
+min_value = 1000
+max(number, min_value)

@@ -22,6 +22,7 @@ def sey_times(what, times):
     print((what+' ')*times)
 sey_times('leave', 10)
 
+
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> local vs global scope
 
 name = 'bro'
@@ -45,7 +46,6 @@ display_name_cool()
 
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> return statements
 
-
 def multiply(one, two):
     res = one*two
     return res
@@ -58,7 +58,6 @@ print(power(23, 2))
 
 
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> assigning function to a variable
-
 
 def hello():
     print('hello')
@@ -75,7 +74,6 @@ say('whatever')
 
 
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> keyword arguments \ parameters
-
 
 def hello(first_name, middle_name, last_name):
     return 'hi '+first_name+' '+middle_name+' '+last_name

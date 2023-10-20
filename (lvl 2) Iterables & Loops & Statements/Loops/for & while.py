@@ -15,6 +15,7 @@ while not name:
     name = input('give me your name: ')
 print('your name is '+name)
 
+
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> for
 
 for i in range(10):

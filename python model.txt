@@ -16,4 +16,4 @@ Meat:
 Basis:
 
     module
-    blueprint
+    class
