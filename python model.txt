@@ -1,9 +1,9 @@
 Syntax:
 
-    word
-    symbol
-    number
-    string
+    word    from import with as try except def for while if else
+    sbl     . , : () {} [] / \ @
+    num     123 0.123
+    str     'string' '\n \t \r \\' """string""" 
 
 Meat:
 
