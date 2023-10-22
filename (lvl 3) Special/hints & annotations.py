@@ -1,6 +1,8 @@
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> hints & annotations
 
-number: int = 42
+empty_string: str
+integer: int = 42
+
 
 def add_numbers2(*args: int) -> int:
     result = int()
