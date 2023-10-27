@@ -5,7 +5,7 @@ while True:
     if not name == '':
         break
 
-for i in range(1,20 +1):
+for i in range(1, 20 + 1):
     if i == 13:
         pass
     else:

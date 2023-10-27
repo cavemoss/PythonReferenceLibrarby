@@ -3,4 +3,3 @@ def function(text: str, times: int | None = None):
         print((text + ' ') * times)
     else:
         print(text + ' ')
-

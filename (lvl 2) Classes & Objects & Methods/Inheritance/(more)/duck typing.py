@@ -4,7 +4,7 @@ class Duck:
         print('this duck is walking')
 
     def talk(self):
-        print('this duck is qwacking')
+        print('this duck is quacking')
 
 
 class Chicken:

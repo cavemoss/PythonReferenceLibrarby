@@ -11,8 +11,7 @@ print(type(items), items, end='\n\n')
 
 # Print out formatted data
 for item in items:
-    print(item[0] + ' ' + item[1] + ' ' + str(item[2]) + ' | ' + item[3])
-print('')
+    print(item[0] + ' ' + item[1] + ' ' + str(item[2]) + ' | ' + item[3], end='\n\n')
 
 # Print out data along with the Primary Key
 cursor.execute("SELECT rowid, * FROM database")

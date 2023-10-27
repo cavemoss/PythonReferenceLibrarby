@@ -3,7 +3,7 @@ Syntax:
     word    from import with as try except def for in while if elif else
     sbl     . , : () {} [] / \ @
     num     123 0.123
-    str     'string' '\n \t \r \\' """string""" 
+    str     'string' '\n \t \r \\' """string"""
 
 Meat:
 

@@ -22,7 +22,7 @@ class Math:
 
 
 Math.say_it()
-print(Math.add(3,2))
-print(Math.sub(4,3))
-print(Math.mult(3,3))
-print(Math.div(8,2))
+print(Math.add(3, 2))
+print(Math.sub(4, 3))
+print(Math.mult(3, 3))
+print(Math.div(8, 2))

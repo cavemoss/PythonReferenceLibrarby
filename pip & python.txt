@@ -4,5 +4,6 @@ python –version
 pip install <module_name>
   pip install <module_name>==<version>
   pip uninstall <module_name>
+
 pip show <module_name>
   pip index versions <module_name>
