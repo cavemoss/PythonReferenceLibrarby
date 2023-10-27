@@ -2,14 +2,13 @@
 
 import time
 
-print(time.ctime(0))  # reference point (epic)
-print(time.ctime(1000000))
+print(time.ctime())  # CurrentTime
+print(time.ctime(0))  # ReferenceTime
+print(time.ctime(1000000))  # ReferenceTime shifted by seconds
+print(time.time())  # seconds since ReferenceTime
+print(time.ctime(time.time()))  # CurrentTime
 
-print(time.time())
-print(time.ctime(time.time()))  # current time (epic)
-
-
-time_object = time.localtime()
+time_object = time.localtime() 
 print(time_object)
 
 time_object = time.gmtime()

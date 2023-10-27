@@ -1,5 +1,6 @@
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> hints & annotations
 
+variable: int | str | bool | float
 empty_string: str
 integer: int = 42
 
@@ -9,6 +10,7 @@ def add_numbers2(*args: int) -> int:
     for i in args:
         result += i
     return result
+
 def print_numbers(a: int, b: int, c: int) -> None:
     print(a + b + c)
 
