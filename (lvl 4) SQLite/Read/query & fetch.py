@@ -19,5 +19,4 @@ cursor.execute("SELECT rowid, * FROM database")
 for item in cursor.fetchall():
     print(item)
 
-
 connection.close()
