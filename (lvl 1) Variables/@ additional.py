@@ -25,6 +25,6 @@ number = 101
 max_value = 100
 min(number, max_value)
 
-number = 999
-min_value = 1000
+number = 99
+min_value = 100
 max(number, min_value)

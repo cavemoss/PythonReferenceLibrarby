@@ -8,11 +8,7 @@ funky_name = name[0:9:2]
 funky_name2 = name[::2]
 name_reversed = name[::-1]
 
-print(name_first)
-print(name_last)
-print(funky_name)
-print(funky_name2)
-print(name_reversed)
+print(name_first, name_last, funky_name, funky_name2, name_reversed, sep='\n')
 
 
 website = 'http://google.com'

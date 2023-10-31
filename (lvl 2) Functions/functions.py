@@ -1,32 +1,34 @@
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> def function
 
-def function(argument, key_word=None):
+def function(argument, keyword=None):
     """
     Epic Style comments
     exclusive for functions
     :param argument:
-    :param key_word:
+    :param keyword:
     :return:
     """
     pass
-function('', key_word='')
+
+function('', keyword='')
 
 
 def hello(who):
     print('greetings, ' + who)
     print('it is nice to meet you')
+
 hello('my friend')
 
 
 def sey_times(what, times):
     print((what+' ')*times)
+
 sey_times('leave', 10)
 
 
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> local vs global scope
 
 name = 'bro'
-
 
 def display_name():
     name = 'code'
@@ -39,38 +41,41 @@ display_name()
 def display_name_cool():
     global name
     other_name = 'code'
-    print(name + ' ' + other_name)
+    print(name, other_name)
 
 display_name_cool()
 
 
-# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> return statements
+# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> return statement
 
 def multiply(one, two):
     res = one*two
     return res
+
 print(multiply(2, 2))
 
 
 def power(one, two):
     return one**two
+
 print(power(23, 2))
 
 
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> assigning function to a variable
 
-def hello():
-    print('hello')
-print(hello)
+def function():
+    print('executed')
 
-hi = hello
-print(hi)
+print(function)
 
-hello()
-hi()
+func = function
+print(func)
+
+function()
+func()
 
 say = print
-say('whatever')
+say('something')
 
 
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> keyword arguments \ parameters

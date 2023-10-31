@@ -5,16 +5,10 @@ print('write strings like this\nif it requires more lines', end='\n\n')
 print('backwards slash is the escape symbol, so you can print <don\'t>', end='\n\n')
 print("you can also use double quotes for that purpose <don't>", end='\n\n')
 
-print('this is \t how you \t do tabs')
+print('this is \t how you \t do tabs', end='\n\n')
 
 print('''write strings like this 
 if it requires more lines''', end='\n\n')
-
-"""
-write comments
-epic style;
-used for functions
-"""
 
 
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> assign and print()
@@ -23,16 +17,16 @@ a = 'string'
 b = 42
 c = 4.2
 d = True
-print(a, b, c, d)
+print(a, b, c, d, sep=' | ')
 
 a, b, c, d = 'another string', 47, 5.3, False
-print(a, b, c, d, end='\n\n')
+print(a, b, c, d, sep=' | ', end='\n\n')
 
 a, b, c, d = 'the other string', \
              911, \
              42.42, \
              True
-print(a, b, c, d, end='\n\n')
+print(a, b, c, d, sep=' | ', end='\n\n')
 
 
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> typecasting
