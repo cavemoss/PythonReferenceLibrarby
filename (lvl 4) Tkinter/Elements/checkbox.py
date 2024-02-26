@@ -14,7 +14,7 @@ root.geometry('600x420')
 root.config(background='Black')
 root.title('GUI')
 
-photo = PhotoImage(file='(path)\\sadge_abby.gif')
+photo = PhotoImage(file='../(path)\\sadge_abby.gif')
 x = IntVar()
 
 check_button = Checkbutton(root,

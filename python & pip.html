@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="(path)/style.css">
+    <title>Python & Pip</title>
+</head>
+<body>
+
+<div class="section"><p class="title">Python</p>
+    <div>
+        <p>
+            <span class="first">python</span>
+            <span class="placeholder">path/file.py</span>
+            <span class="comment">Run a python file</span>
+        </p>
+        <div class="dropdown">
+            <p>
+                <span class="first">python</span>
+            <span class="add">--version</span>
+            <span class="comment">Display version of python</span>
+            </p>
+            <div class="content">
+                <p>
+                    <span class="first">python</span>
+                    <span class="add">--V</span>
+                    <span class="comment">Display version of python</span>
+                </p>
+            </div>
+        </div><br>
+    </div>
+</div>
+
+<div class="section"><p class="title">Python Packages</p>
+    <div>
+
+        <div class="dropdown">
+            <p>
+                <span class="first">pip</span>
+                install
+                <span class="placeholder">module name</span>
+                <span class="comment">Install a python package</span>
+            </p>
+            <div class="content">
+                <p>
+                    <span class="first">pip</span>
+                    install
+                    <span class="placeholder">module name</span>==<span class="placeholder">version</span>
+                    <span class="comment">Install exact version of a python package</span>
+                </p>
+            </div>
+        </div><br>
+
+        <div class="dropdown">
+            <p>
+                <span class="first">pip</span>
+                show
+                <span class="placeholder">module name</span>
+                <span class="comment">View version of a python package</span>
+            </p>
+            <div class="content">
+                <p>
+                    <span class="first">pip</span>
+                    index versions
+                    <span class="placeholder">module name</span>
+                    <span class="comment">View all available versions of a python package</span>
+                </p>
+            </div>
+        </div>
+
+        <p>
+            <span class="first">pip</span>
+            uninstall
+            <span class="placeholder">module name</span>
+            <span class="comment">Uninstall a python package</span>
+        </p>
+    </div>
+</div>
+
+<div class="section"><p class="title">Virtual Environment with Pipenv</p>
+    <div>
+        <p><span class="first">pip</span> install pipenv <span class="comment">Install Pipenv</span></p>
+    </div>
+
+    <div class="dropdown">
+        <p class="command">
+            <span class="first">pipenv</span>
+            install
+            <span class="placeholder">package name</span>
+            <span class="comment">Create virtual environment for a specific project</span>
+        </p><br>
+        <div class="content">
+            <p class="command">
+                <span class="first">pip</span>
+                <span class="add">--venv</span>
+                <span class="comment">View the virtual environment path</span>
+            </p>
+        </div>
+    </div><gap></gap>
+
+    <div>
+        <p class="command" id="highlighting">
+            <span class="first">pipenv</span>
+            shell
+            <span class="comment">Activate virtual environment</span>
+        </p><br>
+        <p class="command">
+            <span class="first">pip</span>
+            install
+            <span class="placeholder">module name</span>
+            <span class="comment">Install an additional package into the virtual environment</span>
+        </p>
+    </div>
+</div>
+
+</body>
+</html>

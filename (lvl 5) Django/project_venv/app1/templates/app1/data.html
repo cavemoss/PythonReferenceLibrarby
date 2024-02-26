@@ -1,0 +1,16 @@
+{% extends 'app1/base.html' %}
+
+{% block title %}View List: {{ls.name}}{% endblock %}
+
+{% block content %}
+<h2>{{ls.name}}</h2>
+<ul>
+    {% for item in ls.item_set.all %}
+        {% if item.complete == True %}
+            <li>{{item.text}} <i>- complete</i></li>
+        {% else %}
+            <li>{{item.text}}</li>
+        {% endif %}
+    {% endfor %}
+</ul>
+{% endblock %}

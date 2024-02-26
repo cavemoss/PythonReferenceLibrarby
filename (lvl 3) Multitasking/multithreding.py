@@ -1,6 +1,7 @@
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> multithreading
 
 import threading
+from threading import Thread
 import time
 
 
@@ -11,21 +12,21 @@ import time
 def breakfast():
     time.sleep(3)
     print('you eat breakfast')
-thread_x = threading.Thread(target=breakfast, args=())
+thread_x = Thread(target=breakfast, args=())
 thread_x.start()
 
 
 def coffee():
     time.sleep(4)
     print('you drank coffee')
-thread_y = threading.Thread(target=coffee, args=())
+thread_y = Thread(target=coffee, args=())
 thread_y.start()
 
 
 def study():
     time.sleep(5)
     print('you finish studying')
-thread_z = threading.Thread(target=study, args=())
+thread_z = Thread(target=study, args=())
 thread_z.start()
 
 # thread_x.join()

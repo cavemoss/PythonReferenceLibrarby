@@ -15,9 +15,9 @@ def how_feel():
 
 root = Tk()
 
-sadge = PhotoImage(file='(path)\\sadge_abby.gif')
-angy = PhotoImage(file='(path)\\angy_abby.gif')
-happy = PhotoImage(file='(path)\\happy_abby.gif')
+sadge = PhotoImage(file='../(path)\\sadge_abby.gif')
+angy = PhotoImage(file='../(path)\\angy_abby.gif')
+happy = PhotoImage(file='../(path)\\happy_abby.gif')
 
 emotions = ['sadge', 'happy', 'angy']
 emotion_images = [sadge, happy, angy]

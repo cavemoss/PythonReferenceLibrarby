@@ -1,0 +1,105 @@
+body{
+    background-color: rgb(31, 33, 35);
+}
+
+.section{
+    margin-top: 16px;
+    background-color: rgb(43, 49, 53);
+    padding: 16px;
+    padding-top: 6px;
+    border-radius: 6px;
+}
+.title{
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(125, 125, 125);
+    background-color: rgb(52, 57, 61);
+    border-radius: 6px;
+    padding-left: 6px;
+    font-size: 1.3em;
+}
+
+div{
+    margin-bottom: 30px;
+}
+gap{
+    display: block;
+    margin-bottom: 30px;
+}
+#highlighting{
+    background-color: rgb(118, 118, 15);
+}
+#highlighting span.comment{
+    color: antiquewhite;
+}
+
+
+p{
+    margin: 0px;
+    margin-top: 8px;
+    font-family: 'Consolas';
+    font-size: 1em;
+    color: rgb(226, 240, 253);
+    transition: background-color 0.15s;
+}
+
+
+.command{
+    display: inline-block;
+}
+.command::before{
+    content: '\\project folder> ';
+}
+.first{
+    color: yellow;
+}
+.placeholder{
+    background-color: rgb(25, 26, 26);
+    text-decoration: underline;
+    color: rgb(80, 93, 99);
+    padding: 1.4px 6px;
+    position: relative;
+    top:1.4px
+}
+.add{
+    color: rgb(118, 125, 128);
+}
+.comment{
+    font-style: italic;
+    color: rgb(84, 89, 98);
+    margin-left: 30px;
+}
+.comment::before{
+    content: '# ';
+}
+
+
+.dropdown:not(:hover) p{
+    background-color: rgb(62, 70, 75);
+}
+.dropdown:not(:hover) .comment{
+    color: rgb(115, 123, 137);
+}
+.content:nth-child(1n+1){
+    margin-left: 30px;
+}
+.dropdown{
+    display: inline-block;
+    margin-bottom: 0px;
+}
+.dropdown .content{
+    display: none;
+    margin-bottom: 0px;
+}
+.dropdown:hover .content{
+    display: inline-block;
+    animation-name: slideIn;
+    animation-duration: 0.2s;
+}
+
+@keyframes slideIn{
+    from{
+        transform: translateY(-20%);
+        opacity: 0;
+    }
+}

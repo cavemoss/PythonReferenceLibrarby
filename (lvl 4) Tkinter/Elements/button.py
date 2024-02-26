@@ -1,8 +1,6 @@
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> GUI button
 from tkinter import *
 
-count = 0
-
 
 def click():
     global count
@@ -11,18 +9,19 @@ def click():
 
 
 root = Tk()
-
 root.geometry('420x420')
 root.config(background='Blue')
 root.title('GUI')
 
-photo = PhotoImage(file='(path)\\picture.png')
+count = 0
+photo = PhotoImage(file='../(path)/picture.png')
 
-button = Button(root,
+button = Button(master=root,
+
                 command=click,
                 state=ACTIVE,
 
-                text='dont click this',
+                text='Don\'t click this',
                 font=('Comic Sans', 30),
 
                 fg='#00ff00',

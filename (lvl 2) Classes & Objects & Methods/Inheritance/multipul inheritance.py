@@ -16,7 +16,7 @@ class Rabbit(Prey):
 class Hawk(Preditor):
     pass
 
-class Fish(Prey,Preditor):
+class Fish(Prey, Preditor):
     pass
 
 

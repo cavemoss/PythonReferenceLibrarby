@@ -7,7 +7,7 @@ root.geometry('1080x420')
 root.config(background='Blue')
 root.title('GUI')
 
-photo = PhotoImage(file='(path)\\happy_abby.gif')
+photo = PhotoImage(file='../(path)\\happy_abby.gif')
 
 label = Label(root,
               text='happyhappyhappyhappyhappy',
