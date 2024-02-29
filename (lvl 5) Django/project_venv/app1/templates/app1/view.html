@@ -1,0 +1,11 @@
+{% extends 'app1/base.html' %}S
+{% block title %}View Lists{% endblock %}
+
+{% block content %}
+<h2>View Lists</h1>
+    <ul>
+        {% for list in ls.all %}
+            <li><button><a class="list" href="/{{list.name}}">{{list.name}}</a></button></li><br>
+        {% endfor %}
+    </ul>
+{% endblock %}

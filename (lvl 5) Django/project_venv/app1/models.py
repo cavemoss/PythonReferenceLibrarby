@@ -1,6 +1,9 @@
 from django.db import models
+from django.contrib.auth.models import User
 
 class ToDoList(models.Model):
+    # link this model to User 
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
     # attributes
     name = models.CharField(max_length=200)
 

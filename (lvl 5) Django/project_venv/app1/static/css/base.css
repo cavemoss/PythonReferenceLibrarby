@@ -1,0 +1,28 @@
+.side-nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 180px;
+    height: 100%;
+    padding-left: 40px;
+    padding-top: 40px;
+    background-color: black;
+}
+.content{
+    margin-left: 260px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.side-nav a{
+    display: block;
+    margin-bottom: 20px;
+    color: rgb(209, 209, 209);
+    font-size: 25px;
+    transition: font-size 0.1s;
+}
+.side-nav a:hover {
+    color: white;
+    font-size: 28px;
+}
